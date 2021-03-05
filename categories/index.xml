@@ -2,44 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RuiShawn</title>
-    <link>https://ruishawn.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Jul 2017 16:46:40 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Sun, 16 Jul 2017 16:46:40 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python</title>
-      <link>https://ruishawn.github.io/categories/python/</link>
+      <link>/categories/python/</link>
       <pubDate>Sun, 16 Jul 2017 16:46:40 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/categories/python/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://ruishawn.github.io/categories/linux/</link>
+      <link>/categories/linux/</link>
       <pubDate>Tue, 27 Jun 2017 16:12:04 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/categories/linux/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>数据结构</title>
-      <link>https://ruishawn.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <link>/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
       <pubDate>Fri, 21 Apr 2017 16:12:04 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
       <description></description>
     </item>
     
     <item>
       <title>daily</title>
-      <link>https://ruishawn.github.io/categories/daily/</link>
+      <link>/categories/daily/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ruishawn.github.io/categories/daily/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/categories/daily/</guid>
       <description></description>
     </item>
     

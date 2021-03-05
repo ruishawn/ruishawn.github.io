@@ -2,26 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on RuiShawn</title>
-    <link>https://ruishawn.github.io/categories/linux/</link>
+    <link>/categories/linux/</link>
     <description>Recent content in linux on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Jun 2017 16:12:04 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Tue, 27 Jun 2017 16:12:04 +0800</lastBuildDate><atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible变量的规划和使用</title>
-      <link>https://ruishawn.github.io/post/2_ansible_vars/</link>
+      <link>/post/2_ansible_vars/</link>
       <pubDate>Tue, 27 Jun 2017 16:12:04 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/post/2_ansible_vars/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/post/2_ansible_vars/</guid>
       <description>变量的存放位置 一个Ansible项目中存放变量的位置通常有三个 inventory中定义变量 例子:先看这个host的定义文件 1 2 3 4 5 6 7 8 9</description>
     </item>
     
     <item>
       <title>使用expect的一个简单例子</title>
-      <link>https://ruishawn.github.io/post/2_shell_expect/</link>
+      <link>/post/2_shell_expect/</link>
       <pubDate>Tue, 23 May 2017 17:25:19 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/post/2_shell_expect/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/post/2_shell_expect/</guid>
       <description>expect是什么，为什么使用expect shell交互的时候不是很友好，例如ssh-copy-id在copy公钥的时候，如何让其自动添加k</description>
     </item>
     

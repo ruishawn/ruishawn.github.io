@@ -2,17 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on RuiShawn</title>
-    <link>https://ruishawn.github.io/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Jul 2017 16:46:40 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Sun, 16 Jul 2017 16:46:40 +0800</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Centos7上安装Python3</title>
-      <link>https://ruishawn.github.io/post/3_centos7_install_python3/</link>
+      <link>/post/3_centos7_install_python3/</link>
       <pubDate>Sun, 16 Jul 2017 16:46:40 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/post/3_centos7_install_python3/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/post/3_centos7_install_python3/</guid>
       <description>为何升级 Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分proj</description>
     </item>
     

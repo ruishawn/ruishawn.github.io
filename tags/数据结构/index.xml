@@ -2,17 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据结构 on RuiShawn</title>
-    <link>https://ruishawn.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+    <link>/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
     <description>Recent content in 数据结构 on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Apr 2017 16:12:04 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Fri, 21 Apr 2017 16:12:04 +0800</lastBuildDate><atom:link href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据结构基础学习</title>
-      <link>https://ruishawn.github.io/post/1_algorithm_base/</link>
+      <link>/post/1_algorithm_base/</link>
       <pubDate>Fri, 21 Apr 2017 16:12:04 +0800</pubDate>
-      
-      <guid>https://ruishawn.github.io/post/1_algorithm_base/</guid>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>/post/1_algorithm_base/</guid>
       <description>数据结构的分类 按照逻辑结构划分 集合结构：集合里面的元素是除了同属一个集合外，没有其他关系。 线性机构：元素之间是一对一的关系。 树形结构：元素和</description>
     </item>
     

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on RuiShawn</title>
-    <link>/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://ruishawn.github.io/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
     <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
-    <lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我</title>
-      <link>/about/</link>
+      <link>https://ruishawn.github.io/about/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/about/</guid>
+      <guid>https://ruishawn.github.io/about/</guid>
       <description>座右铭 simple sometimes naive</description>
     </item>
     

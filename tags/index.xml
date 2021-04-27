@@ -2,82 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RuiShawn</title>
-    <link>/tags/</link>
+    <link>https://ruishawn.github.io/tags/</link>
     <description>Recent content in Tags on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
     <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
-    <lastBuildDate>Sun, 16 Jul 2017 16:46:40 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Apr 2021 21:21:01 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大数据</title>
+      <link>https://ruishawn.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Mon, 26 Apr 2021 21:21:01 +0800</pubDate>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>https://ruishawn.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Centos7</title>
-      <link>/tags/centos7/</link>
+      <link>https://ruishawn.github.io/tags/centos7/</link>
       <pubDate>Sun, 16 Jul 2017 16:46:40 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/centos7/</guid>
+      <guid>https://ruishawn.github.io/tags/centos7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>https://ruishawn.github.io/tags/linux/</link>
       <pubDate>Sun, 16 Jul 2017 16:46:40 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/linux/</guid>
+      <guid>https://ruishawn.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://ruishawn.github.io/tags/python/</link>
       <pubDate>Sun, 16 Jul 2017 16:46:40 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/python/</guid>
+      <guid>https://ruishawn.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>/tags/ansible/</link>
+      <link>https://ruishawn.github.io/tags/ansible/</link>
       <pubDate>Tue, 27 Jun 2017 16:12:04 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/ansible/</guid>
+      <guid>https://ruishawn.github.io/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>expect</title>
-      <link>/tags/expect/</link>
+      <link>https://ruishawn.github.io/tags/expect/</link>
       <pubDate>Tue, 23 May 2017 17:25:19 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/expect/</guid>
+      <guid>https://ruishawn.github.io/tags/expect/</guid>
       <description></description>
     </item>
     
     <item>
       <title>数据结构</title>
-      <link>/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <link>https://ruishawn.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
       <pubDate>Fri, 21 Apr 2017 16:12:04 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <guid>https://ruishawn.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
       <description></description>
     </item>
     
     <item>
       <title>算法</title>
-      <link>/tags/%E7%AE%97%E6%B3%95/</link>
+      <link>https://ruishawn.github.io/tags/%E7%AE%97%E6%B3%95/</link>
       <pubDate>Fri, 21 Apr 2017 16:12:04 +0800</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://ruishawn.github.io/tags/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生活</title>
-      <link>/tags/%E7%94%9F%E6%B4%BB/</link>
+      <link>https://ruishawn.github.io/tags/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       <author>chengruishawn@gmail.com (Rui Shawn)</author>
-      <guid>/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://ruishawn.github.io/tags/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     

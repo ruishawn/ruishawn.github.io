@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Centos7上安装Python3 - RuiShawn</title>
+  <title>解决nifi在arm平台上无法正常启动的问题 - RuiShawn</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="bobby" /><meta name="description" content="为何升级 Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分proj" /><meta name="keywords" content="rui, shawn, hugo" />
+<meta name="author" content="bobby" /><meta name="description" content="nifi官网下载的包在arm平台启动存在的问题 大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。 1" /><meta name="keywords" content="rui, shawn, hugo" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.81.0 with theme even" />
 
 
-<link rel="canonical" href="https://ruishawn.github.io/post/3_centos7_install_python3/" />
+<link rel="canonical" href="https://ruishawn.github.io/post/4_fix_nifi_arm/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Centos7上安装Python3" />
-<meta property="og:description" content="为何升级 Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分proj" />
+<meta property="og:title" content="解决nifi在arm平台上无法正常启动的问题" />
+<meta property="og:description" content="nifi官网下载的包在arm平台启动存在的问题 大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。 1" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ruishawn.github.io/post/3_centos7_install_python3/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2017-07-16T16:46:40&#43;08:00" />
-<meta property="article:modified_time" content="2017-07-16T16:46:40&#43;08:00" />
+<meta property="og:url" content="https://ruishawn.github.io/post/4_fix_nifi_arm/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-26T21:21:01&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-26T21:21:01&#43;08:00" />
 
-<meta itemprop="name" content="Centos7上安装Python3">
-<meta itemprop="description" content="为何升级 Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分proj"><meta itemprop="datePublished" content="2017-07-16T16:46:40&#43;08:00" />
-<meta itemprop="dateModified" content="2017-07-16T16:46:40&#43;08:00" />
-<meta itemprop="wordCount" content="510">
-<meta itemprop="keywords" content="Python,Linux,Centos7," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Centos7上安装Python3"/>
-<meta name="twitter:description" content="为何升级 Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分proj"/>
+<meta itemprop="name" content="解决nifi在arm平台上无法正常启动的问题">
+<meta itemprop="description" content="nifi官网下载的包在arm平台启动存在的问题 大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。 1"><meta itemprop="datePublished" content="2021-04-26T21:21:01&#43;08:00" />
+<meta itemprop="dateModified" content="2021-04-26T21:21:01&#43;08:00" />
+<meta itemprop="wordCount" content="383">
+<meta itemprop="keywords" content="大数据," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="解决nifi在arm平台上无法正常启动的问题"/>
+<meta name="twitter:description" content="nifi官网下载的包在arm平台启动存在的问题 大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。 1"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,15 +129,15 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Centos7上安装Python3</h1>
+      <h1 class="post-title">解决nifi在arm平台上无法正常启动的问题</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2017-07-16 </span>
+        <span class="post-time"> 2021-04-26 </span>
         <div class="post-category">
-            <a href="/categories/python/"> Python </a>
+            <a href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"> 大数据 </a>
             </div>
-          <span class="more-meta"> 约 510 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+          <span class="more-meta"> 约 383 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
     </header>
@@ -149,10 +149,12 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#为何升级">为何升级</a></li>
-        <li><a href="#升级">升级</a></li>
-        <li><a href="#检验">检验</a></li>
-        <li><a href="#参考文档">参考文档</a></li>
+        <li>
+          <ul>
+            <li><a href="#nifi官网下载的包在arm平台启动存在的问题">nifi官网下载的包在arm平台启动存在的问题</a></li>
+            <li><a href="#解决办法">解决办法</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -160,19 +162,8 @@
   </div>
 </div>
     <div class="post-content">
-      <h2 id="为何升级">为何升级</h2>
-<p>Python很多项目一直同时支持Python2和Python3，核心团队认为这样不利于Python的发展，Python大部分project将于2020年1月1日停止对Pyhton2的支持。基于Python开发的项目应该更多的考虑使用Python3开发或者兼容Python3。</p>
-<h2 id="升级">升级</h2>
-<p>安装gcc编译工具</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum install -y gcc
-</code></pre></td></tr></table>
-</div>
-</div><p>下载资源包安装，本文安装的是3.6.6版本，安装其他版本在官网找对应的资源链接。</p>
+      <h3 id="nifi官网下载的包在arm平台启动存在的问题">nifi官网下载的包在arm平台启动存在的问题</h3>
+<p>大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -180,56 +171,17 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">curl -L -O curl -L -O https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tar.xz
-xz Python-3.6.6.tar.xz
-tar -xvf Python-3.6.6.tar 
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">ERROR [main] org.apache.nifi.NiFi Failure to launch NiFi due to java.util.ServiceConfigurationError: org.apache.nifi.processor.Processor: Provider org.apache.nifi.processors.hive.PutHiveStreaming could not be instantiated
+java.util.ServiceConfigurationError: org.apache.nifi.processor.Processor: Provider org.apache.nifi.processors.hive.PutHiveStreaming could not be instantiated
+Caused by: org.xerial.snappy.SnappyError: [FAILED_TO_LOAD_NATIVE_LIBRARY] no native library is found for os.name=Linux and os.arch=aarch64
 </code></pre></td></tr></table>
 </div>
-</div><p>安装</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">make
-make <span class="nb">test</span>
-make install
-</code></pre></td></tr></table>
-</div>
-</div><p>make install 过程通常出现缺少一些依赖包的错误。解决办法：安装缺少的依赖包，然后 make&amp;make install。</p>
-<h2 id="检验">检验</h2>
-<p>命令行输入python3</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">Python 3.6.6 (default, Jul 16 2018, 14:34:50) 
-[GCC 4.8.5 20150623 (Red Hat 4.8.5-28)] on linux
-Type &#34;help&#34;, &#34;copyright&#34;, &#34;credits&#34; or &#34;license&#34; for more information.
-&gt;&gt;&gt; 
-</code></pre></td></tr></table>
-</div>
-</div><p>如果想默认使用Python3，/usr/bin/python的软链接指向Python3的安装位置即可（不同的操作系统路径可能不同）。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">rm /usr/bin/python
-ln -s /usr/local/bin/python3 /usr/bin/python 
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="参考文档">参考文档</h2>
-<p>停止维护Python2的声明: <a href="http://python3statement.org/">http://python3statement.org/</a><br>
-Python安装和下载：https://www.python.org/downloads/source/<br>
-Python3的新特性：https://docs.python.org/3/whatsnew/3.0.html<br></p>
+</div><h3 id="解决办法">解决办法</h3>
+<p>造成这个问题的原因，其实是因为 nifi realease 的版本的压缩包中缺少arm平台上对应的依赖jar包snappy-java。 <br></p>
+<p>可按照如下办法解决这个问题： <br>
+1.访问snappy-java：https://github.com/xerial/snappy-java 拉取最新的代码，按照项目介绍在arm机器上打包，强调是arm机器，打包过程很简单，耗时按照机器性能大约20分钟到1个小时。 <br>
+2.将生成的 snappy-java jar包放入到 nifi 下面的子目录lib中，重新启动nifi。 <br></p>
+<p>直通车: 省略第一步过程，访问百度网盘下载snappy-java-1.1.8.jar: <a href="https://pan.baidu.com/s/17QzbkiMUDqTb4jx8Hf8Ucw">https://pan.baidu.com/s/17QzbkiMUDqTb4jx8Hf8Ucw</a> 提取码: mdv4。 <br></p>
 
     </div>
 
@@ -241,7 +193,7 @@ Python3的新特性：https://docs.python.org/3/whatsnew/3.0.html<br></p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2017-07-16
+        2021-04-26
         
     </span>
   </p>
@@ -250,18 +202,12 @@ Python3的新特性：https://docs.python.org/3/whatsnew/3.0.html<br></p>
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/python/">Python</a>
-          <a href="/tags/linux/">Linux</a>
-          <a href="/tags/centos7/">Centos7</a>
+          <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/">大数据</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/4_fix_nifi_arm/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">解决nifi在arm平台上无法正常启动的问题</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/2_ansible_vars/">
-            <span class="next-text nav-default">Ansible变量的规划和使用</span>
+        
+        <a class="next" href="/post/3_centos7_install_python3/">
+            <span class="next-text nav-default">Centos7上安装Python3</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

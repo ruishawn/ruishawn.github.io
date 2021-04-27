@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>大数据 on RuiShawn</title>
+    <link>https://ruishawn.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+    <description>Recent content in 大数据 on RuiShawn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Mon, 26 Apr 2021 21:21:01 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决nifi在arm平台上无法正常启动的问题</title>
+      <link>https://ruishawn.github.io/post/4_fix_nifi_arm/</link>
+      <pubDate>Mon, 26 Apr 2021 21:21:01 +0800</pubDate>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>https://ruishawn.github.io/post/4_fix_nifi_arm/</guid>
+      <description>nifi官网下载的包在arm平台启动存在的问题 大数据组件nifi虽然目前已经支持arm64平台，但是在实际操作过程中发现启动存在如下问题。 1</description>
+    </item>
+    
+  </channel>
+</rss>

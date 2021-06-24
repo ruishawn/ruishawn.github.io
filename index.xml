@@ -1,14 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RuiShawn</title>
     <link>https://ruishawn.github.io/</link>
     <description>Recent content on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
     <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
-    <lastBuildDate>Mon, 26 Apr 2021 21:21:01 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 10:43:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://ruishawn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vscode 配置</title>
+      <link>https://ruishawn.github.io/post/5.vs_code_config/</link>
+      <pubDate>Thu, 24 Jun 2021 10:43:22 +0800</pubDate>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>https://ruishawn.github.io/post/5.vs_code_config/</guid>
+      <description>1.整体配置 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 { &amp;#34;git.confirmSync&amp;#34;: false, &amp;#34;workbench.startupEditor&amp;#34;: &amp;#34;newUntitledFile&amp;#34;, &amp;#34;editor.fontSize&amp;#34;: 15, &amp;#34;workbench.colorTheme&amp;#34;: &amp;#34;One Dark Pro&amp;#34;, &amp;#34;workbench.iconTheme&amp;#34;: &amp;#34;material-icon-theme&amp;#34;, &amp;#34;editor.suggestSelection&amp;#34;: &amp;#34;first&amp;#34;, &amp;#34;vsintellicode.modify.editor.suggestSelection&amp;#34;: &amp;#34;automaticallyOverrodeDefaultValue&amp;#34;, &amp;#34;python.pythonPath&amp;#34;: &amp;#34;/bin/python3.7&amp;#34;, &amp;#34;python.formatting.autopep8Path&amp;#34;: &amp;#34;flake8&amp;#34;, &amp;#34;python.formatting.provider&amp;#34;: &amp;#34;yapf&amp;#34;, &amp;#34;python.linting.flake8Enabled&amp;#34;: true, &amp;#34;python.linting.flake8Args&amp;#34;: [&amp;#34;--max-line-length=79&amp;#34;], &amp;#34;python.linting.enabled&amp;#34;: true, &amp;#34;python.languageServer&amp;#34;: &amp;#34;Pylance&amp;#34; } 2.python 开发相关的配置 2.1 安装基本包 p</description>
+    </item>
+    
     <item>
       <title>解决nifi在arm平台上无法正常启动的问题</title>
       <link>https://ruishawn.github.io/post/4_fix_nifi_arm/</link>

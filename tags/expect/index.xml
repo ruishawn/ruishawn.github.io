@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>expect on RuiShawn</title>
     <link>https://ruishawn.github.io/tags/expect/</link>
     <description>Recent content in expect on RuiShawn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
     <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
-    <lastBuildDate>Tue, 23 May 2017 17:25:19 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/expect/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2017 17:25:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://ruishawn.github.io/tags/expect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>使用expect的一个简单例子</title>
       <link>https://ruishawn.github.io/post/2_shell_expect/</link>

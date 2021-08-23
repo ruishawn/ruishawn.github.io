@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on RuiShawn</title>
+    <link>https://ruishawn.github.io/tags/github/</link>
+    <description>Recent content in github on RuiShawn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>chengruishawn@gmail.com (Rui Shawn)</managingEditor>
+    <webMaster>chengruishawn@gmail.com (Rui Shawn)</webMaster>
+    <lastBuildDate>Mon, 23 Aug 2021 11:19:08 +0800</lastBuildDate><atom:link href="https://ruishawn.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github cdn 加速</title>
+      <link>https://ruishawn.github.io/post/6.github_cdn/</link>
+      <pubDate>Mon, 23 Aug 2021 11:19:08 +0800</pubDate>
+      <author>chengruishawn@gmail.com (Rui Shawn)</author>
+      <guid>https://ruishawn.github.io/post/6.github_cdn/</guid>
+      <description>1.github.com速度缓慢 github.com由于种种原因，在国内访问不稳定，甚至经常不能访问，可以用下面简单的方法提升访问速度。 2.cdn 加</description>
+    </item>
+    
+  </channel>
+</rss>
